@@ -36,6 +36,7 @@ Approach
 
 **Initial tabels**
 
-Hos
+Hospital
+
 
 
