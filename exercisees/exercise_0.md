@@ -27,16 +27,33 @@ Approach
 - identify conceptual ERD
 - create tabels
   
-**Initial  naive conceptual ERD**
+**Initial naive conceptual ERD**
 
+<img src="../assets/initial_conceptual_model_ex1.png" width="400">
 
-<img src= ".. /assets/initial_conceptual_model_ex1.png" width=400>
-
-
-
-**Initial tabels**
+**Initial tables**
 
 Hospital
 
+| hospital_id | name         | address                     |
+| ----------- | ------------ | --------------------------- |
+| 1           | Sjukhusstock | Drottninggatan 3, Stockholm |
 
+Department
 
+| department_id | name       |
+| ------------- | ---------- |
+| 1             | Kardiologi |
+| 2             | Neurologi  |
+
+Doctor
+
+| doctor_id | name                |
+| --------- | ------------------- |
+| 1         | Dr. Abra Abrahamson |
+| 2         | Dr. Erika Eriksson  |
+| 3         | Dr. Sven Svensson   |
+
+Refined with bridge tables to reflect many-to-many relationships
+
+<img src="../assets/conceptual_hospital_ex0_1.png" width="500">
